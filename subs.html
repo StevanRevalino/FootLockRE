@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Subs Form</title>
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&family=Ubuntu:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <!-- feather icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <script src="js/script.js" defer></script>
+  </head>
+  <body>
+    <!-- Navbar Start-->
+    <nav class="navbar">
+      <a href="#" class="navbar-logo">FootLock<span>RE</span></a>
+
+      <div class="navbar-nav">
+        <a href="index.html">Home</a>
+        <a href="shoes.html">Shoes</a>
+        <a href="about.html">About Us</a>
+        <a href="event.html">Events</a>
+        <a href="subs.html">Subscribe</a>
+      </div>
+
+      <div class="navbar-extra">
+        <a href="#" id="Search"><i data-feather="search"></i></a>
+        <a href="#" id="Shopping-Cart"><i data-feather="shopping-cart"></i></a>
+        <a href="#" id="Menu"><i data-feather="menu"></i></a>
+      </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!-- Subs Start -->
+
+    <div class="form">
+      <form action="" method="">
+        <h1 class="form-title">Subscribe Form</h1>
+        <div class="info">
+          <div class="input-box">
+            <label for="username">Name</label>
+            <input
+              type="text"
+              name="username"
+              id="username"
+              placeholder="Enter Full Name"
+            />
+          </div>
+
+          <div class="input-box">
+            <label for="email">Email</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Enter Email"
+            />
+          </div>
+
+          <div class="input-box">
+            <label for="phone">Phone Number</label>
+            <input
+              type="number"
+              name="phone"
+              id="phone"
+              placeholder="Enter Phone Number"
+            />
+          </div>
+
+          <div class="input-box">
+            <label for="country">Country</label>
+            <select name="country" id="country">
+              <option value="empty">Choose One</option>
+              <option value="Indonesian">Indonesian</option>
+              <option value="Singaporean">Singaporean</option>
+              <option value="Malaysian">Malaysian</option>
+              <option value="Other">Other</option>
+            </select>
+          </div>
+
+          <div class="input-box">
+            <input type="checkbox" name="checkbox" id="checkbox" />
+            <label for="checkbox">I Agree With Terms And Condition</label>
+          </div>
+
+          <div class="button-container">
+            <button type="submit" onclick="ValidateForm()">Subscribe</button>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <!-- Subs End -->
+
+    <!-- Footer Start -->
+    <footer>
+      <div class="socials">
+        <a href="#"><i data-feather="instagram"></i></a>
+        <a href="#"><i data-feather="twitter"></i></a>
+        <a href="#"><i data-feather="facebook"></i></a>
+      </div>
+
+      <div class="links">
+        <a href="index.html">Home</a>
+        <a href="shoes.html">Shoes</a>
+        <a href="about.html">About Us</a>
+        <a href="event.html">Events</a>
+        <a href="subs.html">Subscribe</a>
+      </div>
+
+      <div class="credit">
+        <p>Created By <a href="">Stevan Revalino</a> . | &copy; 2023</p>
+      </div>
+    </footer>
+    <!-- Footer End -->
+
+    <!-- feather icons -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- JavaScript -->
+    <!-- <script src="js/script.js"></script> -->
+  </body>
+</html>
